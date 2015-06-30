@@ -53,7 +53,7 @@
 			align-items: center;
 		}
 	}
-	&__item {
+	li {
 		float: left;
 		a {
 			float: left;
@@ -62,6 +62,7 @@
 			text-align: center;
 			color: #fff;
 			padding: 0 40px;
+			text-transform: capitalize;
 			.slow;
 			&:hover, &:focus {
 			    color: @c-red;
@@ -72,18 +73,27 @@
 		}
 	}
 }
-.language {
+.qtranxs_widget {
+	display: flex;
+	flex-direction: row;
 	align-self: center;
+	h1 {
+		display: none;
+	}
 	@media @desktop {
 		margin-left: 40px;
 	}
-	&__item {
+	ul li {
 		float: left;
-		&:nth-child(1) {
-			a {
-				background-color: #fff;
-				color: #000;
-			}
+		margin: 0 !important;
+		&+li {
+			margin-left: -3px !important;
+		}
+	}
+	li.active {
+		background-color: #fff;
+		a {
+			color: #000;
 		}
 	}
 	a {

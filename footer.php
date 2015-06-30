@@ -12,32 +12,37 @@
 	<footer class="site-footer">
 		<div class="site-footer__left">
 			<div class="footer-columns">
-				<h4 class="footer-columns__title">Контакты</h4>
+				<h4 class="footer-columns__title">
+					<?php the_field('footer-columns__title') ?>
+				</h4>
 				<ul class="footer-columns__list">
 					<li class="footer-columns__column">
 						<p class="footer-columns__address">
-							Наш офис:
-							<br>				
-							Грузия, г.Тбилиси
-							<br>ул. х1, тел: 0574893725</p>
-						<p class="footer-columns__question">Есть вопросы?</p>
-						<a href="#" class="footer-columns__btn">Написать письмо</a>
+							<?php the_field('footer-columns__address') ?>
+							
+						<p class="footer-columns__question"><?php the_field('footer-columns__question') ?></p>
+						<a href="#" class="footer-columns__btn"><?php the_field('footer-columns__btn') ?></a>
 					</li>
 					<li class="footer-columns__column">
-						<p class="footer-columns__order">
-							Хотите разместить свою
-							<br>				
-							рекламу в сети VOST
-							<br>тел: 057325143</p>
-						<p class="footer-columns__order">
-							Желаете заказать
-							<br>				
-							личный VOST
-							<br>тел: 857463527</p>
+					<?php 
+	                    if( have_rows('content-block-1-list__item') ):
+	                         // loop through the rows of data
+	                        while ( have_rows('footer-columns__order') ) : the_row();
+	                            ?>
+                            <p class="footer-columns__order">
+							<?php 
+							// сожержимое суб-поля 
+	                            the_sub_field('footer-columns__order'); ?>
+                            </p>
+	                        <?php endwhile;
+	                    else :
+	                        // no rows found
+	                    endif; 
+	                ?>
 					</li>
 				</ul>
 				<div class="created-by">
-					<span class="created-by__text">Сайт разработали в</span> 
+					<span class="created-by__text"><?php the_field('created-by__text') ?></span> 
 					<a href="http://heartbeat.ua" target="_blank" class="created-by__heartbeat" title="Heartbeat agency – design, prototyping, website design, usability, startups and apps"></a>
 				</div>
 			</div><!-- footer-columns -->

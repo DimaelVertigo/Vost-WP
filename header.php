@@ -21,7 +21,7 @@
 <body <?php body_class(); ?>>
 <header class="site-header">
 	<div class="wrapper">
-		<a href="#home" class="site-header__logo"></a>
+		<a href="<?php echo home_url(); ?>" class="site-header__logo"></a>
 		<nav class="header-navigation">
 			<ul>
 				<li class="header-navigation__item">
@@ -39,14 +39,7 @@
 			</ul>
 		</nav>
 		<div class="language">
-			<ul>
-				<li class="language__item">
-					<a href="#">en</a>
-				</li>
-				<li class="language__item">
-					<a href="#">ru</a>
-				</li>
-			</ul>
+			<?php get_sidebar(); ?>
 		</div>
 		<div class="line line--header"></div>
 	</div>
