@@ -46,10 +46,14 @@
 		}
 		@media @tablet {
 			margin-bottom: 30px;
+			display: flex;
+			align-items: center;
 		}
 		@media @desktop {
 			font: 19px @ff-b;
 			height: 50px;
+			display: flex;
+			align-items: center;
 		}	
 		&::before {
 		    content: '';
@@ -59,6 +63,7 @@
 		    float: left;
 		    width: 51px;
 		    height: 50px;
+		    flex-shrink: 0;
 		    @media @retina {
 	    		background: url(img/point@2x.png) no-repeat;
 	    		background-size: 51px 50px;

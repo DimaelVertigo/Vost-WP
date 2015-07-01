@@ -60,9 +60,12 @@ get_header(); ?>
 							?>
 							
 							<li class="content-block-1-list__item content-block-1-list-item">
-								<div class="content-block-1-list-item__header"><?php
-					        // display a sub field value
-					        the_sub_field('content-block-1-list-item__header'); ?></div>
+								<div class="content-block-1-list-item__header">
+									<span>
+										<?php
+													        // display a sub field value
+													        the_sub_field('content-block-1-list-item__header'); ?></span>
+								</div>
 								<p class="content-block-1-list-item__content"><?php
 					        // display a sub field value
 					        the_sub_field('content-block-1-list-item__content'); ?></p>
