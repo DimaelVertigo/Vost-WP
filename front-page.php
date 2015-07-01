@@ -41,6 +41,7 @@ get_header(); ?>
 			<div class="line line--jumbotron-1"></div>
 			<div class="line line--jumbotron-2"></div>
 		</section>
+
 	</div><!-- container -->
 
 	<div class="container container--light clearfix" id="ancor1">
@@ -195,40 +196,21 @@ get_header(); ?>
 		</div>
 	</div><!-- container -->
 
-	<div class="container container--light container--contact-form clearfix">
+	<div class="container container--light container--contact-form clearfix" id="ancor4">
 		<div class="wrapper">
 			<section class="content-block-7">
-				<form action="">
-					<div class="contact-form">
-						<div class="contact-form-group clearfix">
-							<label for="" class="contact-form-group__label"><?php the_field('contact-form-group__label--name') ?></label>
-							<div class="contact-form-group__wrapper contact-form-group__wrapper--name">
-								<input type="text" class="contact-form-group__input"></div>
-						</div>
-						<div class="contact-form-group clearfix">
-							<label for="" class="contact-form-group__label"><?php the_field('contact-form-group__label--tel') ?></label>
-							<div class="contact-form-group__wrapper contact-form-group__wrapper--tel">
-								<input type="tel" class="contact-form-group__input"></div>
-						</div>
-						<div class="contact-form-group clearfix">
-							<label for="" class="contact-form-group__label"><?php the_field('contact-form-group__label--email') ?></label>
-							<div class="contact-form-group__wrapper contact-form-group__wrapper--email">
-								<input type="email" class="contact-form-group__input"></div>
-						</div>
-						<div class="contact-form-group clearfix">
-							<label for="" class="contact-form-group__label"><?php the_field('contact-form-group__label--comment') ?></label>
-							<div class="contact-form-group__wrapper contact-form-group__wrapper--msg">
-								<textarea name="textarea" class="contact-form-group__textarea"></textarea>
-							</div>
-						</div>
-					</div><!-- contact-form -->		
-					<button class="btn btn--contact-form" type="submit"><?php the_field('btn--contact-form') ?></button>
-				</form>
+			<?php if(qtrans_getLanguage() == "en") : ?>
+				<?php echo do_shortcode( '[contact-form-7 id=124 title=Contact form 1]' ) ?>
+			<?php elseif (qtrans_getLanguage() == "ru") : ?>
+				<?php echo do_shortcode( '[contact-form-7 id=126 title=Contact form 2]' ) ?>
+			<?php elseif (qtrans_getLanguage() == "ge") : ?>
+				<?php echo do_shortcode( '[contact-form-7 id=127 title=Contact form 3]' ) ?>
+			<?php endif ?>
 			</section>
 		</div>
 	</div><!-- container -->
 	
-	<div class="container container--dark clearfix" id="ancor4">
+	<div class="container container--dark clearfix">
 		<section class="content-block-8">
 			<div class="map" id="map"></div>
 			<div class="content-block-8-violet">

@@ -294,6 +294,22 @@ table {
       -ms-flex-item-align: center;
           align-self: center;
 }
+@media (min-width : 320px) and (max-width : 766px) {
+  .qtranxs_widget {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+  .qtranxs_widget {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .qtranxs_widget h1 {
   display: none;
 }
@@ -305,9 +321,14 @@ table {
 .qtranxs_widget ul li {
   float: left;
   margin: 0 !important;
+  opacity: 1 !important;
 }
 .qtranxs_widget ul li + li {
   margin-left: -3px !important;
+}
+.qtranxs_widget ul li:hover,
+.qtranxs_widget ul li:focus {
+  opacity: .75 !important;
 }
 .qtranxs_widget li.active {
   background-color: #fff;
@@ -1133,6 +1154,22 @@ table {
     padding-bottom: 45px;
     width: 100%;
   }
+}
+.content-block-7 .wpcf7-response-output {
+  font: 16px 'proxima_nova_rgbold';
+  text-transform: uppercase;
+  padding: 15px;
+  text-align: center;
+}
+.content-block-7 .wpcf7-response-output.wpcf7-mail-sent-ok {
+  background-color: #1c099d;
+  border: none;
+  color: #fff;
+}
+.content-block-7 .wpcf7-response-output.wpcf7-validation-errors {
+  background-color: #ff1a40;
+  border: none;
+  color: #fff;
 }
 .contact-form {
   padding-top: 45px;
