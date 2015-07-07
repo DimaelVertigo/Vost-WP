@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * The main template file.
  *
@@ -24,7 +24,7 @@ get_header(); ?>
 			<div class="slider clearfix">
 				<div class="slider__logo"></div>
 				<a href="#" class="slider__anchor ancLinks"></a>
-				<a href="#" class="btn btn--jumbotron"><?php the_field('btn--jumbotron') ?></a>
+				<a href="#ancor4" class="btn btn--jumbotron header-navigation__link"><?php the_field('btn--jumbotron') ?></a>
 				<div class="plans_slider">
 					<div class="slide">
 						<span class="slide__item"><?php the_field('carousel_text_1') ?></span>
@@ -44,11 +44,11 @@ get_header(); ?>
 
 	</div><!-- container -->
 
-	<div class="container container--light clearfix" id="ancor1">
+	<div class="container container--light clearfix">
 
 		<section class="content-block-1">
 			<div class="wrapper">
-				<h2 class="title title--content-block-1 title--dark"><?php the_field('title--content-block-1') ?>
+				<h2 class="title title--content-block-1 title--dark" id="ancor1"><?php the_field('title--content-block-1') ?>
 					<!-- <span class="title__bold title__bold--dark"></span> -->
 				</h2>
 				<ul class="content-block-1-list">
@@ -80,7 +80,7 @@ get_header(); ?>
 				?>
 				</ul>
 				<p class="description description--blue description--content-block-1"><?php the_field('description--content-block-1') ?></p>
-				<a href="#" class="btn btn--content-block-1"><?php the_field('btn--content-block-1') ?></a>
+				<a href="#ancor4" class="btn btn--content-block-1 header-navigation__link"><?php the_field('btn--content-block-1') ?></a>
 			</div>
 		</section><!-- content-block-1 -->
 
@@ -199,8 +199,9 @@ get_header(); ?>
 		</div>
 	</div><!-- container -->
 
-	<div class="container container--light container--contact-form clearfix" id="ancor4">
+	<div class="container container--light container--contact-form clearfix">
 		<div class="wrapper">
+			<div id="ancor4"></div>
 			<section class="content-block-7">
 			<?php if(qtrans_getLanguage() == "en") : ?>
 				<?php echo do_shortcode( '[contact-form-7 id=124 title=Contact form 1]' ) ?>

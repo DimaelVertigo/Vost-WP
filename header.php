@@ -24,16 +24,16 @@
 		<a href="<?php echo home_url(); ?>" class="site-header__logo"></a>
 		<nav class="header-navigation">
 			<ul>
-				<li class="header-navigation__item">
+				<li class="header-navigation__item anchors">
 					<a href="#ancor1" class="header-navigation__link"><?php the_field('header-navigation__link--1') ?></a>
 				</li>
-				<li class="header-navigation__item">
+				<li class="header-navigation__item anchors">
 					<a href="#ancor2" class="header-navigation__link"><?php the_field('header-navigation__link--2') ?></a>
 				</li>
-				<li class="header-navigation__item">
+				<li class="header-navigation__item anchors">
 					<a href="#ancor3" class="header-navigation__link"><?php the_field('header-navigation__link--3') ?></a>
 				</li>
-				<li class="header-navigation__item">
+				<li class="header-navigation__item anchors">
 					<a href="#ancor4" class="header-navigation__link"><?php the_field('header-navigation__link--4') ?></a>
 				</li>
 			</ul>

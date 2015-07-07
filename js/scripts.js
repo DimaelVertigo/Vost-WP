@@ -65,10 +65,10 @@ $(document).ready(function() {
 					isValue = input.val();
 
 				if (isValue.length === 0) {
-					input.parent().addClass('has-error').removeClass('has-success');
+					input.parent().parent().addClass('has-error').removeClass('has-success');
 					valid = false;
 				} else {
-					input.parent().addClass('has-success').removeClass('has-error');
+					input.parent().parent().addClass('has-success').removeClass('has-error');
 				}
 			});
 			return valid;

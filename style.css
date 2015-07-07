@@ -591,6 +591,7 @@ table {
 ============================*/
 .content-block-1 {
   margin-bottom: 152px;
+  padding-top: 60px;
 }
 @media (min-width : 320px) and (max-width : 766px) {
   .content-block-1 {
@@ -2053,7 +2054,6 @@ table {
 }
 .created-by {
   margin-top: 47px;
-  margin-bottom: 60px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2300,7 +2300,7 @@ body {
 }
 @media (min-width: 1200px) {
   .title--content-block-1 {
-    padding: 134px 0 85px;
+    padding: 74px 0 85px;
   }
 }
 .title--content-block-2 {
