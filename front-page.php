@@ -109,7 +109,7 @@ get_header(); ?>
 
 	</div><!-- container -->
 
-	<div class="container container--light clearfix" id="ancor3">
+	<div class="container container--light clearfix">
 		<div class="wrapper">
 			<section class="content-block-4">
 				<p class="description desctription--black"><?php the_field('content-block-4-description') ?></p>
@@ -228,7 +228,7 @@ get_header(); ?>
 	</div><!-- container -->
 
 	<div class="container clearfix">
-		<section class="content-block-9">
+		<section class="content-block-9" id="ancor3">
 			<div class="promo-slider">
 				<div class="promo-slider__slide ">
 					<div class="promo-slider-slide promo-slider-slide--1">
