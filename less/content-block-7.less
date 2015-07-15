@@ -1,0 +1,195 @@
+.content-block-7 {
+	background-color: #fff;
+	width: 814px;
+	margin: 0 auto;
+	padding: 0 129px 104px;
+	@media @mobile {
+		padding: 0;
+		width: 100%;
+	}
+	@media @tablet {
+		padding: 0;
+		padding-bottom: 45px;
+		width: 100%;
+	}
+	.wpcf7-response-output {
+		font: 16px @ff-b;
+		text-transform: uppercase;
+		padding: 15px;
+		text-align: center;
+		&.wpcf7-mail-sent-ok {
+			background-color: @c-blue;
+			border: none;
+			color: #fff;
+		}
+		&.wpcf7-validation-errors {
+			background-color: @c-red;
+			border: none;
+			color: #fff;
+		}
+	}
+}
+.contact-form {
+	padding-top: 45px;
+}
+.contact-form-group {
+	margin-bottom: 11px;
+	min-height: 45px;
+	@media @mobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	@media @tablet {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__label {
+		font: 16px/45px @ff-b;
+		margin-right: 18px;
+		text-align: right;
+		float: left;
+		width: 108px;
+		@media @mobile {
+			margin-right: 0;
+			text-align: center;
+		}
+		@media @tablet {
+			text-align: center;
+			margin-right: 0;
+		}
+	}
+	&__input {
+		margin-left: 40px;
+		width: 319px;
+		height: 45px;
+		border: none;
+		outline: none;
+		font: 16px @ff-r;
+		@media @mobile {
+			width: 85%;
+		}
+	}
+	&__textarea {
+		width: 270px;
+		height: 220px;
+		border: none;
+		outline: none;
+		margin: 10px 13px 13px 40px;
+		font: 16px @ff-r;
+		@media @mobile {
+			width: 85%;
+		}
+	}
+	&__wrapper {
+		float: left;
+		width: 319px;
+		height: 45px;
+		overflow: hidden;
+		border: 1px solid @c-border;
+		position: relative;
+		@media @mobile {
+			width: 100%; 
+		}
+		@media @tablet {
+			width: 364px;
+		}
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 11px;
+			height: 45px;
+		}
+		&--name {
+			&::before {
+				background: url(img/i5.png) center no-repeat;
+				width: 18px;
+				@media @retina {
+					background: url(img/i5@2x.png) center no-repeat;
+					background-size: 18px 19px;
+				}
+			}
+			&.has-error {
+				&::before {
+					background: url(img/i5r.png) center no-repeat;
+
+					@media @retina {
+						background: url(img/i5r@2x.png) center no-repeat;
+						background-size: 18px 19px;
+					}
+				}
+			}
+		}
+		&--tel {
+			&::before {
+				background: url(img/i6.png) center no-repeat;
+				width: 20px;
+				@media @retina {
+					background: url(img/i6@2x.png) center no-repeat;
+					background-size: 20px 20px;
+				}
+			}
+			&.has-error {
+				&::before {
+					background: url(img/i6r.png) center no-repeat;
+					@media @retina {
+						background: url(img/i6r@2x.png) center no-repeat;
+						background-size: 20px 20px;
+					}
+				}
+			}
+		}
+		&--email {
+			&::before {
+				background: url(img/i7.png) center no-repeat;
+				width: 19px;
+				@media @retina {
+					background: url(img/i7@2x.png) center no-repeat;
+					background-size: 19px 12px;
+				}
+			}
+			&.has-error {
+				&::before {
+					background: url(img/i7r.png) center no-repeat;
+					@media @retina {
+						background: url(img/i7r@2x.png) center no-repeat;
+						background-size: 19px 12px;
+					}
+				}
+			}
+		}
+		&--msg {
+			height: 223px;
+			@media @mobile {
+				width: 100%;
+			}
+			@media @tablet {
+				width: 364px;
+			}
+			@media @desktop {
+				width: 319px;
+			}
+			&::before {
+				background: url(img/i8.png) center no-repeat;
+				width: 20px;
+				@media @retina {
+					background: url(img/i8@2x.png) center no-repeat;
+					background-size: 20px 17px;
+				}
+			}
+			&.has-error {
+				&::before {
+					background: url(img/i8r.png) center no-repeat;
+
+					@media @retina {
+						background: url(img/i8r@2x.png) center no-repeat;
+						background-size: 20px 17px;
+					}
+				}
+			}
+		}
+	}
+}
