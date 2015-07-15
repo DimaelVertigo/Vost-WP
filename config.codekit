@@ -1369,17 +1369,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/sftp-config.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sftp-config.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/sftp-config-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/sidebar.php": {
 		"fileType": 8192,
 		"ignore": 0,
