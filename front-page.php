@@ -190,7 +190,7 @@ get_header(); ?>
 	</div><!-- container -->
 
 	<div class="container container--dark clearfix">
-		<div class="content-block-6">
+		<div class="content-block-6" id="ancor4">
 			<h2 class="title title--light title--content-block-6">
 			<?php the_field('title--content-block-6') ?>
 			<!-- <span class="title__bold">Свяжитесь</span> с нами --></h2>
@@ -201,7 +201,6 @@ get_header(); ?>
 
 	<div class="container container--light container--contact-form clearfix">
 		<div class="wrapper">
-			<div id="ancor4"></div>
 			<section class="content-block-7">
 			<?php if(qtrans_getLanguage() == "en") : ?>
 				<?php echo do_shortcode( '[contact-form-7 id=124 title=Contact form 1]' ) ?>

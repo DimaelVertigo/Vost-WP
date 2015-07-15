@@ -103,7 +103,7 @@ $(document).ready(function() {
 			$('.title--content-block-6').addClass('fadeInUp');
 		}
 		if (scrTop >= 3300) {
-			$('.content-block-7').addClass('fadeInUp');
+			$('.wpcf7').addClass('fadeInUp');
 		}
 	});
 

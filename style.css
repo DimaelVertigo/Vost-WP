@@ -1700,6 +1700,9 @@ table {
   margin-top: 16px;
   text-align: center;
 }
+.footer-columns__question:first-letter {
+  text-transform: capitalize;
+}
 .footer-columns__btn {
   margin: 8px auto 0;
   display: block;
@@ -1726,6 +1729,9 @@ table {
   top: 2px;
   left: -2px;
   border-radius: 18px;
+}
+.footer-columns__btn:first-letter {
+  text-transform: capitalize;
 }
 .footer-columns__order:nth-child(n+2) {
   margin-top: 17px;
@@ -2219,7 +2225,7 @@ body {
   .content-block-5__picture,
   .content-block-5__lists,
   .title--content-block-6,
-  .content-block-7 {
+  .wpcf7 {
     opacity: 0;
   }
 }
