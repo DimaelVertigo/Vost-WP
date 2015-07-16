@@ -24,37 +24,50 @@
 	"buffers":
 	[
 		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 63154,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "front-page.php",
 			"settings":
 			{
-				"buffer_size": 11930,
+				"buffer_size": 11915,
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
-			"file": "header.php",
+			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1608,
+				"buffer_size": 4678,
 				"line_ending": "Unix"
 			}
 		},
 		{
-=======
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-			"file": "less/content-block-5.less",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1731,
+				"buffer_size": 51508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/custom.less",
+			"settings":
+			{
+				"buffer_size": 7067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/footer.less",
+			"settings":
+			{
+				"buffer_size": 3792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/main.less",
+			"settings":
+			{
+				"buffer_size": 468,
 				"line_ending": "Unix"
 			}
 		}
@@ -66,8 +79,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 387.0,
+		"last_filter": "moni",
 		"selected_items":
 		[
 			[
@@ -91,11 +104,7 @@
 				"Package Control: Install Package"
 			]
 		],
-<<<<<<< HEAD
-		"width": 575.0
-=======
 		"width": 494.0
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 	},
 	"console":
 	{
@@ -117,18 +126,24 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost",
-		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/js"
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/js",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/style.css",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/jumbotron.less",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/.git/config",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/.gitignore",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/sftp-config.json",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/.git/info/exclude",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/.git/logs/refs/heads/master",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/header.php",
+		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/content-block-5.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/custom.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/content-block-1.less",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/js/scripts.js",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/content-block-7.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/jumbotron.less",
-		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/header.php",
-		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/style.css",
 		"/Applications/MAMP/htdocs/wordpress.local/Vost/wp-content/themes/vost/less/footer.less",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
 		"/Users/user/Library/Application Support/Sublime Text 3/Packages/User/SFTP.sublime-settings",
@@ -210,11 +225,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
+			"animation",
 			"img",
 			"ancor3",
-=======
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 			"parent()",
 			"header-navigation__item",
 			"content-7",
@@ -295,19 +308,90 @@
 			[
 				{
 					"buffer": 0,
-					"file": "style.css",
+					"file": "front-page.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 63154,
+						"buffer_size": 11915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7426,
+								7426
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "php",
+							"buffer_scroll_name": "abe509c8",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3997.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2389,
+								2389
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "6d370abd",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
 							]
 						],
 						"settings":
@@ -326,145 +410,111 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 3,
-=======
-					"stack_index": 1,
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "front-page.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11930,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-<<<<<<< HEAD
-								8757,
-								8757
-=======
-								7814,
-								7814
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "php",
-							"buffer_scroll_name": "abe509c8",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 1658.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-=======
-						"translation.y": 3446.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-<<<<<<< HEAD
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1608,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1502,
-								1479
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "php",
-							"buffer_scroll_name": "012de5b7",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"remote_loading": false,
-							"spell_check": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-=======
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-					"file": "less/content-block-5.less",
+					"file": "less/custom.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1731,
+						"buffer_size": 7067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								1002,
-								1002
-=======
-								854,
-								854
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
+								951,
+								951
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "less",
-							"buffer_scroll_name": "7debf233",
+							"buffer_scroll_name": "d495ba79",
 							"incomplete_sync": null,
 							"remote_loading": false,
-<<<<<<< HEAD
 							"spell_check": false,
-=======
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 							"synced": false,
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 610.0,
+						"translation.y": 727.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "less/footer.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2615,
+								2615
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "e2f833bc",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2313.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "less/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "less",
+							"buffer_scroll_name": "395dd136",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
-=======
-					"stack_index": 0,
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 					"type": "text"
 				}
 			]
@@ -527,13 +577,30 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
+				"st",
+				"style.css"
+			],
+			[
+				"ma",
+				"less/main.less"
+			],
+			[
+				"foo",
+				"less/footer.less"
+			],
+			[
+				"js",
+				"js/scripts.js"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
 				"hea",
 				"header.php"
 			],
 			[
-=======
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 				"5",
 				"less/content-block-5.less"
 			],
@@ -562,21 +629,6 @@
 				"header.php"
 			],
 			[
-				"sty",
-				"style.css"
-			],
-			[
-<<<<<<< HEAD
-=======
-				"hea",
-				"header.php"
-			],
-			[
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
-				"foo",
-				"less/footer.less"
-			],
-			[
 				"va",
 				"less/variables.less"
 			],
@@ -587,10 +639,6 @@
 			[
 				"fro",
 				"front-page.php"
-			],
-			[
-				"ma",
-				"less/main.less"
 			],
 			[
 				"heade",
@@ -665,10 +713,6 @@
 				"style.css"
 			],
 			[
-				"st",
-				"style.css"
-			],
-			[
 				"le",
 				"less/custom.less"
 			],
@@ -695,11 +739,7 @@
 		[
 			[
 				"",
-<<<<<<< HEAD
 				"/Applications/MAMP/htdocs/wordpress.local/tech_plus/wp-content/themes/tech-plus/Tech plus.sublime-project"
-=======
-				"/Applications/MAMP/htdocs/wordpress.local/Ent/wp-content/themes/ENT-Sinus-Center-WP/Ent.sublime-project"
->>>>>>> 8a09b78d79c8433f2df354a73b03d6b8d8bf3bf5
 			]
 		],
 		"width": 380.0

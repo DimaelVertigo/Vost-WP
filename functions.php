@@ -119,6 +119,7 @@ function vost_scripts() {
 	wp_enqueue_script('jquery.parallax', get_template_directory_uri() . '/js/jquery.parallax.js' );
 	wp_enqueue_script('maps', '//maps.googleapis.com/maps/api/js' );
 	wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js' );
+	// wp_enqueue_script('scripts', get_template_directory_uri() . '/js/min/scripts-min.js' );
 	wp_enqueue_style('style', get_template_directory_uri() . '/style.css');
 }
 add_action( 'wp_enqueue_scripts', 'vost_scripts' );
